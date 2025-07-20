@@ -1,1 +1,50 @@
-# Bitwise-Operators-in-CPP
+# EXP-4
+EXP-4 C++ BY Pratyush Saha PRN-24070123078
+// EXP 4A BITWISE OPERATERS
+
+#include <iostream>
+using namespace std;
+
+int main() {
+    int a = 6;
+    int b = 4;
+    int bitwise_and = a & b;
+    int bitwise_or = a | b;
+    int bitwise_not = ~a;
+    int bitwise_xor = a ^ b;
+    int bitwise_left_shift = a << 2;
+    int bitwise_right_shift = a >> 1;
+
+    cout << bitwise_and << endl;
+    cout << bitwise_or << endl;
+    cout << bitwise_not << endl;
+    cout << bitwise_xor << endl;
+    cout << bitwise_left_shift << endl;
+    cout << bitwise_right_shift << endl;
+
+    return 0;
+}
+
+
+// EXP 4B BITWISE OPERATERS
+
+#include <iostream>
+using namespace std;
+
+int main() {
+    int i = 52, bit_to_be_set;
+    int bit_to_be_reset;
+    int set, reset;
+
+    cout << "enter the bit position to be set:";
+    cin >> bit_to_be_set;
+    set = i | (1 << bit_to_be_set);
+    cout << "value after the bit set is:" << set << endl;
+
+    cout << "enter the bit to be reset:";
+    cin >> bit_to_be_reset;
+    reset = i & (~(1 << bit_to_be_reset));
+    cout << "value of the bit after reset is:" << reset << endl;
+
+    return 0;
+}
