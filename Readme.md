@@ -1,5 +1,5 @@
 # Bitwise operators in C++
-# Pratyush Ranjan Saha
+# Pratyush Saha
 # PRN-24070123078
 Bitwise operators work directly on the binary representation (bits) of integers.
 They allow you to manipulate bits for low-level programming, performance optimization, and hardware control.
