@@ -1,0 +1,23 @@
+# Basic functions of bitwise operators 
+#include <iostream>
+using namespace std;
+
+int main() {
+    int a = 6;
+    int b = 4;
+    int bitwise_and = a & b;
+    int bitwise_or = a | b;
+    int bitwise_not = ~a;
+    int bitwise_xor = a ^ b;
+    int bitwise_left_shift = a << 2;
+    int bitwise_right_shift = a >> 1;
+
+    cout << bitwise_and << endl;
+    cout << bitwise_or << endl;
+    cout << bitwise_not << endl;
+    cout << bitwise_xor << endl;
+    cout << bitwise_left_shift << endl;
+    cout << bitwise_right_shift << endl;
+
+    return 0;
+}
